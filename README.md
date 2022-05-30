@@ -3,7 +3,7 @@
 ## Summary
 STORYBOARD is an interactive writer’s portfolio to post ideas / work-in-progress and offer feedback. 
 
-![storyboard-dash](./screenshots/storyboard-dash.png =584x502)
+![storyboard-dash](./screenshots/storyboard-dash.png)
 
 ## How to Get Started
 1. [ ] Run this application in your local server port `3000` through the command `npm run dev` in your terminal
@@ -11,7 +11,7 @@ STORYBOARD is an interactive writer’s portfolio to post ideas / work-in-progre
 3. [ ] **View** full post by clicking on title. **Edit** and **comment** on post here.
 4. [ ] Click on 'theme' page to change post hover color (default is lavender)
 
-![storyboard-comment](./screenshots/storyboard-addcomment.png)
+![storyboard-editpost](./screenshots/storyboard-editpost.png) ![storyboard-comment](./screenshots/storyboard-addcomment.png)
 ![storyboard-updatedpost](./screenshots/storyboard-updatedpost.png)
 
 ## How to Run Tests 
