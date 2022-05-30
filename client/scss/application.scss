@@ -1,0 +1,332 @@
+@import '_variables';
+
+body {
+  background: white;
+  font-family: Tahoma, sans-serif;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: calc(100vw - 100%);
+}
+
+input {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#header {
+  position: static;
+  padding-top: 5px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.nav {
+  display: flex;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#button {
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: underline;
+  background-color: transparent;  
+  border: none; 
+}
+
+#button:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+#purpleB, #greenB, #yellowB, #blueB, #pinkB {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+  background-color: transparent;  
+  border: none; 
+  max-width: fit-content;
+  justify-self: center;
+}
+
+#purpleB:hover{
+  background-color: #E6E6FA;
+  cursor: pointer;
+}
+
+#greenB:hover{
+  background-color: #B5EAAA;
+  cursor: pointer;
+}
+
+#yellowB:hover{
+  background-color: #EEE8AA;
+  cursor: pointer;
+}
+
+#blueB:hover{
+  background-color: #B0E0E6;
+  cursor: pointer;
+}
+
+#pinkB:hover{
+  background-color: #FFC0CB;
+  cursor: pointer;
+}
+
+#content {
+  min-width: 200px;
+  min-height: 200px;
+  text-align: left;
+  resize: none;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.field {
+  display: grid;
+  place-items: left;
+  width: 500px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  justify-self: center;
+  padding-top: 10px;
+}
+
+#submitButton {
+  place-self: center;
+  justify-self: center;
+  align-self: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  background-color: white;
+  border: 1px solid black;  
+}
+
+#submitButton:hover{
+  background-color: whitesmoke;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.notFound {
+  margin-top: 40px;
+  justify-self: center;
+  justify-content: center;
+  display: grid;
+}
+
+.board {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(3, 300px);
+  justify-self: center;
+  justify-content: center;
+}
+
+.profile {
+  display: grid;
+  grid-template-rows: auto;
+  max-width: 500px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.post {
+  border: 1px solid black;  
+  min-height: 200px;
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#head {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#titleLink {
+  align-self: left;
+}
+
+#remove {
+  align-self: right;
+}
+
+#box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+  max-height: 500px;
+}
+
+a, a:visited, a:active {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#deleteButton {
+  color: black;
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  text-decoration: underline;
+  background-color: transparent;  
+  border: none; 
+}
+
+#deleteButton:hover {
+  cursor: pointer;
+}
+
+.postPage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 500px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#postTitle {
+  font-weight: bolder;
+  font-size: 24px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  justify-self: center;
+}
+
+#postContent {
+  justify-self: center;
+}
+
+#postButtons {
+  margin-top: 10px;
+  justify-self: center;
+}
+
+#editButton {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  background-color: transparent;  
+  border: none; 
+  margin-top: 30px;
+  padding: 0px; 
+}
+
+#editButton:hover {
+  cursor: pointer;
+}
+
+#updateCancel {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  padding-top: 10px;
+}
+
+#cancelButton {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  background-color: transparent;  
+  border: none; 
+  padding: 0px; 
+}
+
+#cancelButton:hover {
+  cursor: pointer;
+}
+
+#commentArea {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  justify-self: center;
+}
+
+#commentField {
+  text-align: left;
+  resize: none;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  min-width: 500px;
+}
+
+#allComments {
+  display: grid;
+  grid-template-columns: auto;
+  max-width: 500px;
+  grid-template-rows: repeat(auto);
+  grid-gap: 10px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+}
+
+#eachComment {
+  background-color: white;
+}
+
+#eachComment:hover {
+  background-color: lightgrey;
+}
