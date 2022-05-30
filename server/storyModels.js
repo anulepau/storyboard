@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = 'mongodb+srv://anulepau:codesmith22@cluster0.jtvcb.mongodb.net/storyboard?retryWrites=true&w=majority';
+const MONGO_URI = 'mongodb+srv://username:password@cluster0.jtvcb.mongodb.net/storyboard?retryWrites=true&w=majority';
 
 mongoose.connect(MONGO_URI, {
   // options for the connect method to parse the URI
