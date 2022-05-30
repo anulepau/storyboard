@@ -11,8 +11,8 @@ STORYBOARD is an interactive writer’s portfolio to post ideas / work-in-progre
 3. [ ] **View** full post by clicking on title. **Edit** and **comment** on post here.
 4. [ ] Click on 'theme' page to change post hover color (default is lavender)
 
-![storyboard-dash]('./screenshots/storyboard-addcomment.png')
-![storyboard-dash]('./screenshots/storyboard-updatedpost.png')
+![storyboard-comment]('./screenshots/storyboard-addcomment.png')
+![storyboard-updatedpost]('./screenshots/storyboard-updatedpost.png')
 
 ## How to Run Tests 
 TBD ... 
