@@ -3,7 +3,7 @@
 ## Summary
 STORYBOARD is an interactive writer’s portfolio to post ideas / work-in-progress and offer feedback. 
 
-![storyboard-dash](./screenshots/storyboard-dash.png)
+![storyboard-dash](./screenshots/storyboard-dash.png =584x502)
 
 ## How to Get Started
 1. [ ] Run this application in your local server port `3000` through the command `npm run dev` in your terminal
